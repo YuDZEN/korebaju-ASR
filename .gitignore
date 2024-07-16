@@ -8,7 +8,7 @@ Thumbs.db
 
 # 忽略steps, utils
 data/main/steps
-utils/
+data/main/utils
 
 # 忽略IDE/编辑器生成的文件
 .idea/
