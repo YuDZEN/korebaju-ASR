@@ -1,0 +1,15 @@
+# 忽略Python相关的临时文件
+*.pyc
+__pycache__/
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略steps, utils
+data/main/steps
+utils/
+
+# 忽略IDE/编辑器生成的文件
+.idea/
+.vscode/
