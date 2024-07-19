@@ -23,6 +23,7 @@ def split_phonemes(line, phones):
         else:
             if ord(line[i]) == 771:# 771 is the code for the tilde character, we must consider it as a nasal(we don't want to give a fuck about the small point like : or ', even ˀ)
                 phonemes[len(phonemes)-1] = phonemes[len(phonemes)-1] + line[i]
+                print("there was a nasal symbol not recognised, we added it")
             else:
                 print(phonemes)
                 print("Error: No match found for ", line[i] + " of " + line + " at position " + "of " +(str)(len(phonemes)) + " at position " + (str)(len(phonemes)))
