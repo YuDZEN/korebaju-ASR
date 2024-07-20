@@ -2,6 +2,9 @@ import os
 import re
 import unicodedata
 import prep_inter_lexicon
+from KaldiDataset.KaldiDatasetFunctions import remove_duplicate_lines
+
+
 def load_phones(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         phones = file.read().splitlines()
@@ -22,7 +25,20 @@ def split_phonemes(line, phones):
             i += len(match)
         else:
             if ord(line[i]) == 771:# 771 is the code for the tilde character, we must consider it as a nasal(we don't want to give a fuck about the small point like : or ', even ˀ)
-                phonemes[len(phonemes)-1] = phonemes[len(phonemes)-1] + line[i]
+                if ord(line[i]) == 771:  # 771 is the code for the tilde character
+                    if phonemes[len(phonemes)-1] == "a":
+                         phonemes[len(phonemes)-1] = "ã"
+                    elif phonemes[len(phonemes)-1] == "e":
+                        phonemes[len(phonemes)-1] = "ẽ"
+                    elif phonemes[len(phonemes)-1] == "i":
+                        phonemes[len(phonemes)-1] = "ĩ"
+                    elif phonemes[len(phonemes)-1] == "o":
+                        phonemes[len(phonemes)-1] = "õ"
+                    elif phonemes[len(phonemes)-1] == "u":
+                        phonemes[len(phonemes)-1] = "ũ"
+                    elif phonemes[len(phonemes-1)] =="ɨ":
+                        phonemes[len(phonemes-1)] = "ɨ̃"
+                        # phonemes[len(phonemes)-1] = phonemes[len(phonemes)-1] + line[i]
                 print("there was a nasal symbol not recognised, we added it")
             else:
                 print(phonemes)
@@ -55,8 +71,10 @@ with open('../../main/data/lang/dict/lexicon.txt', 'w', encoding='utf-8') as fil
         combined_line = list_line.strip() + ' ' + lexicon_tmp_line
         # Step 5: Write to lexicon.txt
         file.write(combined_line)
+    file.write('\n<UNK> spn\n')
+remove_duplicate_lines('../../main/data/lang/dict/lexicon.txt', '../../main/data/lang/dict/lexicon.txt')
 os.remove('../../main/data/lang/dict/tmp.txt')
 os.remove('../../main/data/lang/dict/lexicon_tmp.txt')
 print("tmp.txt has been deleted.")
 print("lexicon_tmp.txt has been deleted.")
-print("Processing completed. The processed data has been saved to 'processed_lexicon.txt'.")
+print("Processing completed. The processed data has been saved to 'lexicon.txt'.")

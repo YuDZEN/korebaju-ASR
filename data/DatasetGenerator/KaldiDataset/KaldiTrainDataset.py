@@ -61,7 +61,8 @@ for root, dirs, files in os.walk(input_dir):
                     start_time = interval.minTime
                     end_time = interval.maxTime
                     word = interval.mark
-                    utternance_id = base_name + str(utternance_number)
+                    # utternance_id = base_name + str(utternance_number)
+                    utternance_id = base_name + str(utternance_number).zfill(3)  # Convert to three digits
                     text_content += f"{utternance_id} {word}\n"
                     segments_content += f"{utternance_id} {recording_id} {start_time:.3f} {end_time:.3f}\n" # <utterance-id> <recording-id> <segment-begin> <segment-end>
                     utternance_number += 1

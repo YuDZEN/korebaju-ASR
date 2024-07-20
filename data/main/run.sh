@@ -1,39 +1,82 @@
-#!/usr/bin/env bash
+#!/bin/bash
+# Set up Kaldi environment
+. ./path.sh
 
-# 這段代碼的意義是調用本地的shell腳本，這個腳本的作用是下載數據集
-train_cmd="utils/run.pl"
-decode_cmd="utils/run.pl"
+# 删除 data/lang/local 文件夹及其内容
+rm -rf data/lang/local/*
 
-train=data/train
-test=data/test
-echo "Data preparation done."
-rm -rf exp mfcc # Clean up previous run,可能還要加入其他的
-echo "Clean up done."
-# Feature extraction
-for x in train test; do
- steps/make_mfcc.sh --nj 1 data/$x exp/make_mfcc/$x mfcc
- steps/compute_cmvn_stats.sh data/$x exp/make_mfcc/$x mfcc
- utils/fix_data_dir.sh data/$x
+# 删除 data/lang/phone 文件夹及其内容
+rm -rf data/lang/phone/*
+
+# 删除 data/lang/dict/lexiconp.txt 文件
+rm -f data/lang/dict/lexiconp.txt
+
+# 删除 data/lang/L.fst 文件
+rm -f data/lang/L.fst
+
+echo "Cleanup complete."
+
+# Check if Kaldi path is set correctly
+if [ ! -d "$KALDI_ROOT" ]; then
+  echo "Please set the KALDI_ROOT variable to the root of your Kaldi installation."
+  exit 1
+fi
+
+find ./data/lang -type f -exec dos2unix {} \;
+# Directories
+train_dir=./data/train
+test_dir=./data/test
+lang_dir=./data/lang
+dict_dir=./data/lang/dict
+exp_dir=./exp
+
+# Ensure necessary directories exist
+for dir in $train_dir $test_dir $lang_dir $dict_dir; do
+  if [ ! -d "$dir" ]; then
+    echo "Directory $dir does not exist!"
+    exit 1
+  fi
 done
-echo "Feature extraction done."
-# Mono training
-steps/train_mono.sh --nj 1 --cmd "$train_cmd" \
-  --totgauss 400 \
-  data/train data/lang exp/mono0a
-echo "Mono training done."
-# Graph compilation這個是為了生成解碼圖，這個圖是用來解碼的
-utils/mkgraph.sh data/lang_test_tg exp/mono0a exp/mono0a/graph_tgpr
 
-echo "Mono training done."
+# Create experiment directory if it does not exist
+if [ ! -d "$exp_dir" ]; then
+  mkdir -p $exp_dir
+fi
 
+# Step 1: Prepare language data and features
+echo "Preparing language data and features..."
+utils/prepare_lang.sh $dict_dir "<UNK>" $lang_dir/local/lang $lang_dir || exit 1
 
-# now we need to train a 3-phone model
-echo "Triphone training start."
+# Step 2: Extract features
+echo "Extracting features for train and test data..."
+steps/make_mfcc.sh --nj 4 --cmd "run.pl" $train_dir || exit 1
+steps/make_mfcc.sh --nj 4 --cmd "run.pl" $test_dir || exit 1
+steps/compute_cmvn_stats.sh $train_dir || exit 1
+steps/compute_cmvn_stats.sh $test_dir || exit 1
 
+# Step 3: Monophone training
+echo "Training monophone model..."
+steps/train_mono.sh --nj 4 --cmd "run.pl" $train_dir $lang_dir $exp_dir/mono || exit 1
 
+# Step 4: Align monophone model
+echo "Aligning monophone model..."
+steps/align_si.sh --nj 4 --cmd "run.pl" $train_dir $lang_dir $exp_dir/mono $exp_dir/mono_ali || exit 1
 
-# Decoding，這是一個測試集，我們暫時沒有，先不用管
-#steps/decode.sh --nj 1 --cmd "$decode_cmd" \
-#    exp/mono0a/graph_tgpr data/test exp/mono0a/decode_test_yesno
-#
-#for x in exp/*/decode*; do [ -d $x ] && grep WER $x/wer_* | utils/best_wer.sh; done
+# Step 5: Triphone training
+echo "Training triphone model..."
+steps/train_deltas.sh --cmd "run.pl" 2000 10000 $train_dir $lang_dir $exp_dir/mono_ali $exp_dir/tri1 || exit 1
+
+# Step 6: Align triphone model
+echo "Aligning triphone model..."
+steps/align_si.sh --nj 4 --cmd "run.pl" $train_dir $lang_dir $exp_dir/tri1 $exp_dir/tri1_ali || exit 1
+
+# Step 7: Decode test data
+echo "Decoding test data..."
+utils/mkgraph.sh $lang_dir $exp_dir/tri1 $exp_dir/tri1/graph || exit 1
+steps/decode.sh --nj 4 --cmd "run.pl" $exp_dir/tri1/graph $test_dir $exp_dir/tri1/decode_test || exit 1
+
+# Step 8: Get the results
+echo "Getting results..."
+grep WER $exp_dir/tri1/decode_test/wer_* | utils/best_wer.sh
+
+echo "All steps completed successfully!"

@@ -24,3 +24,17 @@ def utt2spk_to_spk2utt(utt2spk_path, spk2utt_path):
             f.write(f"{spk_id} {' '.join(utt_ids)}\n")
 
     print("the file of spk2utt is successfully generated from the file of utt2spk")
+
+def remove_duplicate_lines(input_file, output_file):
+    # we use a set because a set can only store unique elements!
+    unique_lines = set()
+
+    # 读取文件并将每一行加入集合
+    with open(input_file, 'r', encoding='utf-8') as file:
+        for line in file:
+            unique_lines.add(line)
+
+    # 将集合中的行写回到输出文件中
+    with open(output_file, 'w', encoding='utf-8') as file:
+        for line in unique_lines:
+            file.write(line)
