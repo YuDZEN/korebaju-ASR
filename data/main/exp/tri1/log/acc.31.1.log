@@ -1,18 +1,18 @@
 # gmm-acc-stats-ali ./exp/tri1/31.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:./data/train/split1/1/utt2spk scp:./data/train/split1/1/cmvn.scp scp:./data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,s,cs:gunzip -c ./exp/tri1/ali.1.gz|" ./exp/tri1/31.1.acc 
-# Started at Sun Jul 21 12:34:02 CEST 2024
+# Started at Mon Jul 22 00:43:42 CEST 2024
 #
 gmm-acc-stats-ali ./exp/tri1/31.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:./data/train/split1/1/utt2spk scp:./data/train/split1/1/cmvn.scp scp:./data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,s,cs:gunzip -c ./exp/tri1/ali.1.gz|' ./exp/tri1/31.1.acc 
 apply-cmvn --utt2spk=ark:./data/train/split1/1/utt2spk scp:./data/train/split1/1/cmvn.scp scp:./data/train/split1/1/feats.scp ark:- 
 add-deltas ark:- ark:- 
-LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance 2022_COE_F_G1_14_C014 avg. like is -84.0365 over 99 frames.
-LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance 2022_COE_F_G1_14_D024 avg. like is -68.8313 over 77 frames.
-LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance 2022_COE_F_G1_14_E036 avg. like is -81.0182 over 59 frames.
-LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance 2022_COE_F_G1_14_G002 avg. like is -75.7957 over 57 frames.
-LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance 2022_COE_F_G1_14_H013 avg. like is -71.8742 over 71 frames.
-LOG (apply-cmvn[5.5.1139~1-67548]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 306 utterances, errors on 0
-LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance 2022_COE_F_G1_14_I026 avg. like is -86.7063 over 66 frames.
-LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:112) Done 306 files, 0 with errors.
-LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -78.9806 over 25729 frames.
+LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance 2022_COE_F_G1_14_C002 avg. like is -91.9023 over 84 frames.
+LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance 2022_COE_F_G1_14_D012 avg. like is -71.5425 over 82 frames.
+LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance 2022_COE_F_G1_14_E024 avg. like is -79.2675 over 77 frames.
+LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance 2022_COE_F_G1_14_F035 avg. like is -73.7341 over 86 frames.
+LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance 2022_COE_F_G1_14_H001 avg. like is -85.8106 over 86 frames.
+LOG (apply-cmvn[5.5.1139~1-67548]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 318 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance 2022_COE_F_G1_14_I014 avg. like is -79.818 over 91 frames.
+LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:112) Done 318 files, 0 with errors.
+LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -79.2246 over 26605 frames.
 LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:123) Written accs.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sun Jul 21 12:34:02 CEST 2024, elapsed time 0 seconds
+# Ended (code 0) at Mon Jul 22 00:43:42 CEST 2024, elapsed time 0 seconds

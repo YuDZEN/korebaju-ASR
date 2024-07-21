@@ -1,5 +1,5 @@
 # extract-segments scp,p:./data/train/wav.scp ./data/train/log/segments.1 ark:- | compute-mfcc-feats --write-utt2dur=ark,t:./data/train/log/utt2dur.1 --verbose=2 --config=conf/mfcc.conf ark:- ark:- | copy-feats --compress=true --write-num-frames=ark,t:./data/train/log/utt2num_frames.1 ark:- ark,scp:/home/yu/main/./data/train/data/raw_mfcc_train.1.ark,/home/yu/main/./data/train/data/raw_mfcc_train.1.scp 
-# Started at Sun Jul 21 12:32:35 CEST 2024
+# Started at Mon Jul 22 00:42:26 CEST 2024
 #
 copy-feats --compress=true --write-num-frames=ark,t:./data/train/log/utt2num_frames.1 ark:- ark,scp:/home/yu/main/./data/train/data/raw_mfcc_train.1.ark,/home/yu/main/./data/train/data/raw_mfcc_train.1.scp 
 extract-segments scp,p:./data/train/wav.scp ./data/train/log/segments.1 ark:- 
@@ -32,10 +32,23 @@ VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A024
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A025
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A026
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A027
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A028
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A029
+LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A030
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A031
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A032
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A033
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A034
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A035
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A036
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A037
+VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_A038
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_B001
+LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_B002
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_B003
-LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_B004
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_B005
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_B006
@@ -44,9 +57,9 @@ VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_B009
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_B010
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C001
+LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C002
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C003
-LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C004
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C005
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C006
@@ -55,9 +68,9 @@ VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C009
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C010
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C011
+LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C012
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C013
-LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C014
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C015
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C016
@@ -66,9 +79,9 @@ VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C019
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C020
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C021
+LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C022
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C023
-LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C024
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C025
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C026
@@ -76,20 +89,11 @@ VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C028
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C029
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C030
+LOG (extract-segments[5.5.1139~1-67548]:main():extract-segments.cc:194) Successfully processed 80 lines out of 80 in the segments file. 
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C031
+LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C032
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C033
-LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C034
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C035
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C036
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C037
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C038
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C039
-LOG (extract-segments[5.5.1139~1-67548]:main():extract-segments.cc:194) Successfully processed 77 lines out of 77 in the segments file. 
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_C040
-VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) Processed features for key 2022_COE_F_G1_14_D001
-LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:185)  Done 77 out of 77 utterances.
-LOG (copy-feats[5.5.1139~1-67548]:main():copy-feats.cc:143) Copied 77 feature matrices.
+LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:185)  Done 80 out of 80 utterances.
+LOG (copy-feats[5.5.1139~1-67548]:main():copy-feats.cc:143) Copied 80 feature matrices.
 # Accounting: time=1 threads=1
-# Ended (code 0) at Sun Jul 21 12:32:36 CEST 2024, elapsed time 1 seconds
+# Ended (code 0) at Mon Jul 22 00:42:27 CEST 2024, elapsed time 1 seconds

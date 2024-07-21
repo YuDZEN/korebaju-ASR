@@ -3,12 +3,13 @@ import shutil
 from glob import glob
 # pip install textgrid if not installed
 from textgrid import TextGrid
-from KaldiDatasetFunctions import check_files_exist, move_files_to_directory, utt2spk_to_spk2utt
+from KaldiDatasetFunctions import check_files_exist, move_files_to_directory
 import time
 
 start= time.time()
 # make two variables to store the input and output directories
 output_dir = "../../main/data/test"
+output_relative_dir = "../../main"
 input_dir = "../../data_source"
 os.makedirs(output_dir, exist_ok=True) # create the output directory if it does not exist
 
@@ -44,7 +45,7 @@ for root, dirs, files in os.walk(input_dir):
         print("speaker_id = " + speaker_id)
 
         if os.path.exists(textgrid_file):
-            relative_wav_file = os.path.relpath(wav_file, output_dir)
+            relative_wav_file = os.path.relpath(wav_file, output_relative_dir)
             relative_wav_file = relative_wav_file.replace('\\', '/')  # Replace backslashes with forward slashes
             # Initialize content strings
             wav_scp_content = f"{recording_id} {relative_wav_file}\n" # <recording-id> <extended-filename>
@@ -61,7 +62,8 @@ for root, dirs, files in os.walk(input_dir):
                     start_time = interval.minTime
                     end_time = interval.maxTime
                     word = interval.mark
-                    utternance_id = base_name + str(utternance_number)
+                    # utternance_id = base_name + str(utternance_number)
+                    utternance_id = base_name + str(utternance_number).zfill(3)  # Convert to three digits
                     text_content += f"{utternance_id} {word}\n"
                     segments_content += f"{utternance_id} {recording_id} {start_time:.3f} {end_time:.3f}\n" # <utterance-id> <recording-id> <segment-begin> <segment-end>
                     utternance_number += 1
@@ -82,8 +84,6 @@ for root, dirs, files in os.walk(input_dir):
             with open(utt2spk_path, 'a', encoding='utf-8') as f:
                 f.write(utt2spk_content)
         else: print("no corresponding textgrid file found for " + base_name)
-# Generate spk2utt file
-utt2spk_to_spk2utt("../../main/data/test/utt2spk", "../../main/data/test/spk2utt")
 print("Data preparation completed successfully!")
 
 # 脚本执行完毕的时间戳

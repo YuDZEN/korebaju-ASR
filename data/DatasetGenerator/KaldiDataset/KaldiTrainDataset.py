@@ -3,7 +3,7 @@ import shutil
 from glob import glob
 # pip install textgrid if not installed
 from textgrid import TextGrid
-from KaldiDatasetFunctions import check_files_exist, move_files_to_directory, utt2spk_to_spk2utt
+from KaldiDatasetFunctions import check_files_exist, move_files_to_directory
 import time
 
 start= time.time()

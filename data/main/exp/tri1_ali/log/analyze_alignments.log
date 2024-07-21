@@ -1,6 +1,6 @@
 # gunzip -c ./exp/tri1_ali/phone_stats.*.gz | steps/diagnostic/analyze_phone_length_stats.py ./data/lang 
-# Started at Sun Jul 21 12:34:09 CEST 2024
+# Started at Mon Jul 22 00:43:49 CEST 2024
 #
 /usr/bin/env: 'python': No such file or directory
 # Accounting: time=0 threads=1
-# Ended (code 127) at Sun Jul 21 12:34:09 CEST 2024, elapsed time 0 seconds
+# Ended (code 127) at Mon Jul 22 00:43:49 CEST 2024, elapsed time 0 seconds

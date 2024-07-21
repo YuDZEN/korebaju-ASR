@@ -14,7 +14,7 @@ rm -f data/lang/L.fst
 rm -f data/lang/L_disambig.fst
 rm -f data/lang/oov.int
 rm -f data/lang/oov.txt
-rm -f data/lang/phones.txt
+rm -rf data/lang/phones
 rm -f data/lang/words.txt
 rm -f data/lang/topo
 rm -rf data/test/log

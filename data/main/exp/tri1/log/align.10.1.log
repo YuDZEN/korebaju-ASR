@@ -1,5 +1,5 @@
 # gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false "gmm-boost-silence --boost=1.0 1 ./exp/tri1/10.mdl - |" "ark:gunzip -c ./exp/tri1/fsts.1.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:./data/train/split1/1/utt2spk scp:./data/train/split1/1/cmvn.scp scp:./data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c >./exp/tri1/ali.1.gz" 
-# Started at Sun Jul 21 12:33:37 CEST 2024
+# Started at Mon Jul 22 00:43:19 CEST 2024
 #
 gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false 'gmm-boost-silence --boost=1.0 1 ./exp/tri1/10.mdl - |' 'ark:gunzip -c ./exp/tri1/fsts.1.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:./data/train/split1/1/utt2spk scp:./data/train/split1/1/cmvn.scp scp:./data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c >./exp/tri1/ali.1.gz' 
 gmm-boost-silence --boost=1.0 1 ./exp/tri1/10.mdl - 
@@ -34,6 +34,18 @@ LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A024
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A025
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A026
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A027
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A028
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A029
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A030
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A031
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A032
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A033
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A034
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A035
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A036
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A037
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_A038
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_B001
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_B002
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_B003
@@ -292,8 +304,8 @@ LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I008
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I009
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I010
+LOG (apply-cmvn[5.5.1139~1-67548]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 318 utterances, errors on 0
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I011
-LOG (apply-cmvn[5.5.1139~1-67548]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 306 utterances, errors on 0
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I012
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I013
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I014
@@ -315,8 +327,8 @@ LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I030
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I031
 LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:127) 2022_COE_F_G1_14_I032
-LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -81.4282 over 25729 frames.
-LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:137) Retried 0 out of 306 utterances.
-LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:139) Done 306, errors on 0
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -81.348 over 26605 frames.
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:137) Retried 0 out of 318 utterances.
+LOG (gmm-align-compiled[5.5.1139~1-67548]:main():gmm-align-compiled.cc:139) Done 318, errors on 0
 # Accounting: time=1 threads=1
-# Ended (code 0) at Sun Jul 21 12:33:38 CEST 2024, elapsed time 1 seconds
+# Ended (code 0) at Mon Jul 22 00:43:20 CEST 2024, elapsed time 1 seconds
