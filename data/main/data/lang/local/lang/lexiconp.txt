@@ -1,0 +1,229 @@
+t͡ʃai 1.0 t͡ʃ_B a_I i_E
+t͡ʃɨ̃ʔt͡ʃɨ 1.0 t͡ʃ_B ɨ̃_I ʔ_I t͡ʃ_I ɨ_E
+pǎːmɨ̃̀ 1.0 p_B a_I m_I ɨ̃_E
+mǎː-pɨ̀-á 1.0 m_B a_I p_I ɨ_I a_E
+ho*e 1.0 h_B o_I *_I e_E
+ɲaʔuɲaʔumɨ̃̀ 1.0 ɲ_B a_I ʔ_I u_I ɲ_I a_I ʔ_I u_I m_I ɨ̃_E
+nàsó 1.0 n_B a_I s_I o_E
+hõˀhomɨ̃ 1.0 h_B õ_I h_I o_I m_I ɨ̃_E
+ápè-ɦáˀ-mɨ̀ 1.0 a_B p_I e_I ɦ_I aˀ_I m_I ɨ_E
+ásímàká-pǎː-mɨ̀ 1.0 a_B s_I i_I m_I a_I k_I a_I p_I a_I m_I ɨ_E
+nèˀnè-máˀ-mɨ̀ 1.0 n_B eˀ_I n_I e_I m_I aˀ_I m_I ɨ_E
+pítʰò-mé 1.0 p_B i_I tʰ_I o_I m_I e_E
+kʰùkʰúcè 1.0 kʰ_B u_I kʰ_I u_I c_I e_E
+ɲʲâː-ɳʲè 1.0 ɲ_B a_I ɳ_I e_E
+kueˀkomɨ̃̀ 1.0 k_B u_I eˀ_I k_I o_I m_I ɨ̃_E
+maˀʔkarɨ 1.0 m_B aˀ_I ʔ_I k_I a_I r_I ɨ_E
+t͡ʃe*ero 1.0 t͡ʃ_B e_I *_I e_I r_I o_E
+βẽβeɲɨ 1.0 β_B ẽ_I β_I e_I ɲ_I ɨ_E
+ãˀkapɨ 1.0 ã_B k_I a_I p_I ɨ_E
+néàtʰó 1.0 n_B e_I a_I tʰ_I o_E
+aˀt͡ʃo 1.0 aˀ_B t͡ʃ_I o_E
+mìkʰá̰pɨ̀ 1.0 m_B i_I kʰ_I a_I p_I ɨ_E
+ìnsí 1.0 i_B n_I s_I i_E
+o*et͡ʃo 1.0 o_B *_I e_I t͡ʃ_I o_E
+hǎː-cɨ̂-sósìkɨ́-m 1.0 h_B a_I c_I ɨ_I s_I o_I s_I i_I k_I ɨ_I m_E
+íè 1.0 i_B e_E
+t͡ʃio 1.0 t͡ʃ_B i_I o_E
+kʰóˀkʰó-mà̰-mɨ̀ 1.0 kʰ_B oˀ_I kʰ_I o_I m_I a_I m_I ɨ_E
+ro*imɨ̃ 1.0 r_B o_I *_I i_I m_I ɨ̃_E
+nè*é-ɲʲù-màˀ-mɨ̀ 1.0 n_B e_I *_I e_I ɲ_I u_I m_I aˀ_I m_I ɨ_E
+sɨ̃sɨ 1.0 s_B ɨ̃_I s_I ɨ_E
+kòrèbàhɨ́ 1.0 k_B o_I r_I e_I b_I a_I h_I ɨ_E
+ũˀku 1.0 ũ_B k_I u_E
+kunare*a 1.0 k_B u_I n_I a_I r_I e_I *_I a_E
+kʰàí-mɨ̀ 1.0 kʰ_B a_I i_I m_I ɨ_E
+mǎː 1.0 m_B a_E
+β̞eʔse 1.0 β_B e_I ʔ_I s_I e_E
+nèˀnè-ɲʲé 1.0 n_B eˀ_I n_I e_I ɲ_I e_E
+kõsa 1.0 k_B õ_I s_I a_E
+mìʔá 1.0 m_B i_I ʔ_I a_E
+hɨ̀tʰɨ́ 1.0 h_B ɨ_I tʰ_I ɨ_E
+kòhí 1.0 k_B o_I h_I i_E
+tʰáɾà-pɨ́ 1.0 tʰ_B a_I ɾ_I a_I p_I ɨ_E
+t͡ʃaˀt͡ʃomɨ̃̀ 1.0 t͡ʃ_B aˀ_I t͡ʃ_I o_I m_I ɨ̃_E
+ka*imɨ̃̀ 1.0 k_B a_I *_I i_I m_I ɨ̃_E
+sisi*a 1.0 s_B i_I s_I i_I *_I a_E
+sù̀kʰí-kʰàː 1.0 s_B u_I kʰ_I i_I kʰ_I a_E
+àsósàíβɨ̀ 1.0 a_B s_I o_I s_I a_I i_I β_I ɨ_E
+mǎːɦàɲʲé 1.0 m_B a_I ɦ_I a_I ɲ_I e_E
+ka 1.0 k_B a_E
+sìɦó-pɨ̀-á 1.0 s_B i_I ɦ_I o_I p_I ɨ_I a_E
+à*í 1.0 a_B *_I i_E
+t͡ʃa*opo 1.0 t͡ʃ_B a_I *_I o_I p_I o_E
+uˀt͡ʃao 1.0 uˀ_B t͡ʃ_I a_I o_E
+kã: 1.0 k_B ã_E
+nè*é-ɲʲù 1.0 n_B e_I *_I e_I ɲ_I u_E
+eamɨ̃̀ 1.0 e_B a_I m_I ɨ̃_E
+ôːˀ-wɨ́ 1.0 o_B w_I ɨ_E
+áˀsò-á 1.0 aˀ_B s_I o_I a_E
+màʔá 1.0 m_B a_I ʔ_I a_E
+nè*é-màˀ-mɨ̀ 1.0 n_B e_I *_I e_I m_I aˀ_I m_I ɨ_E
+maˀʰɲoko 1.0 m_B aˀ_I ɲ_I o_I k_I o_E
+ponɨmɨ 1.0 p_B o_I n_I ɨ_I m_I ɨ_E
+sĩ*uɲɨ̃̀ 1.0 s_B ĩ_I *_I u_I ɲ_I ɨ̃_E
+hàˀkɨ́ 1.0 h_B aˀ_I k_I ɨ_E
+ɲ̥áɲ̥òmɨ̃̀ 1.0 ɲ_B a_I ɲ_I o_I m_I ɨ̃_E
+mɨ́òɲʲó 1.0 m_B ɨ_I o_I ɲ_I o_E
+o*a 1.0 o_B *_I a_E
+kòsákǎː 1.0 k_B o_I s_I a_I k_I a_E
+ka*a 1.0 k_B a_I *_I a_E
+t͡ʃã*o 1.0 t͡ʃ_B ã_I *_I o_E
+tʰòtʰácḛ̀ 1.0 tʰ_B o_I tʰ_I a_I c_I e_E
+ot͡ʃo-siˀβi 1.0 o_B t͡ʃ_I o_I s_I iˀ_I β_I i_E
+t͡ʃa*oo 1.0 t͡ʃ_B a_I *_I o_I o_E
+t͡ʃoˀheo 1.0 t͡ʃ_B oˀ_I h_I e_I o_E
+poo 1.0 p_B o_I o_E
+ɸèˀnémɨ̃̀ 1.0 ɸ_B eˀ_I n_I e_I m_I ɨ̃_E
+ʰmaˀtɨ*karɨ 1.0 m_B aˀ_I t_I ɨ_I *_I k_I a_I r_I ɨ_E
+kónsàá 1.0 k_B o_I n_I s_I a_I a_E
+páì-ɨ́ 1.0 p_B a_I i_I ɨ_E
+í-kʰôː-wɨ́ 1.0 i_B kʰ_I o_I w_I ɨ_E
+cʲókʰò-á 1.0 c_B o_I kʰ_I o_I a_E
+e*amɨ̃̀ 1.0 e_B *_I a_I m_I ɨ̃_E
+sɨ̃ʔsɨ 1.0 s_B ɨ̃_I ʔ_I s_I ɨ_E
+tʰâːɲʲè 1.0 tʰ_B a_I ɲ_I e_E
+có*òcé 1.0 c_B o_I *_I o_I c_I e_E
+cʲɨ̂-ːsósìkʰà-m 1.0 c_B ɨ_I s_I o_I s_I i_I kʰ_I a_I m_E
+po'o 1.0 p_B o_I o_E
+cʲókʰò-ɲʲá 1.0 c_B o_I kʰ_I o_I ɲ_I a_E
+ɲaˀse 1.0 ɲ_B aˀ_I s_I e_E
+hohomɨ̃ 1.0 h_B o_I h_I o_I m_I ɨ̃_E
+ri*homo 1.0 r_B i_I *_I h_I o_I m_I o_E
+hèˀná 1.0 h_B eˀ_I n_I a_E
+ěː-mɨ̀ 1.0 e_B m_I ɨ_E
+tʰòá 1.0 tʰ_B o_I a_E
+cʲóʔò-ɲʲú 1.0 c_B o_I ʔ_I o_I ɲ_I u_E
+asireˀre 1.0 a_B s_I i_I r_I eˀ_I r_I e_E
+aˀso 1.0 aˀ_B s_I o_E
+òkʰó 1.0 o_B kʰ_I o_E
+ɸáàcé 1.0 ɸ_B a_I a_I c_I e_E
+sòˀtʰó 1.0 s_B oˀ_I tʰ_I o_E
+kʰòmáɲè 1.0 kʰ_B o_I m_I a_I ɲ_I e_E
+poˀnɨmɨ 1.0 p_B oˀ_I n_I ɨ_I m_I ɨ_E
+cʲɨ̌ː-mɨ̀ 1.0 c_B ɨ_I m_I ɨ_E
+t͡ʃɨ̀í 1.0 t͡ʃ_B ɨ_I i_E
+t͡ʃa*o 1.0 t͡ʃ_B a_I *_I o_E
+t͡ʃa*i 1.0 t͡ʃ_B a_I *_I i_E
+eosẽ*e 1.0 e_B o_I s_I ẽ_I *_I e_E
+ôː-pɨ́ 1.0 o_B p_I ɨ_E
+ɨ̀ɦá-cʲáì-wà 1.0 ɨ_B ɦ_I a_I c_I a_I i_I w_I a_E
+áì-pá 1.0 a_B i_I p_I a_E
+t͡ʃãsamɨ̃̀ 1.0 t͡ʃ_B ã_I s_I a_I m_I ɨ̃_E
+pãʔĩ 1.0 p_B ã_I ʔ_I ĩ_E
+ɨ́mɨ̀ɨ́ 1.0 ɨ_B m_I ɨ_I ɨ_E
+áì-ʔó 1.0 a_B i_I ʔ_I o_E
+à*só 1.0 a_B *_I s_I o_E
+àːɨ́ 1.0 a_B ɨ_E
+t͡ʃeˀt͡ʃoˀt͡ʃe 1.0 t͡ʃ_B eˀ_I t͡ʃ_I oˀ_I t͡ʃ_I e_E
+cʲóʔó-mɨ̀ 1.0 c_B o_I ʔ_I o_I m_I ɨ_E
+cʲácʲà-wàʔí 1.0 c_B a_I c_I a_I w_I a_I ʔ_I i_E
+kaa 1.0 k_B a_I a_E
+ihaˀt͡ʃe 1.0 i_B h_I aˀ_I t͡ʃ_I e_E
+t͡ʃĩ*õ 1.0 t͡ʃ_B ĩ_I *_I õ_E
+kòˀɦí 1.0 k_B oˀ_I ɦ_I i_E
+nàˀsó 1.0 n_B aˀ_I s_I o_E
+ǒː 1.0 o_S
+mìmí 1.0 m_B i_I m_I i_E
+kaβaˀna 1.0 k_B a_I β_I aˀ_I n_I a_E
+wìtʰó 1.0 w_B i_I tʰ_I o_E
+nèˀné-mɨ̀ 1.0 n_B eˀ_I n_I e_I m_I ɨ_E
+tʰàɾá 1.0 tʰ_B a_I ɾ_I a_E
+ɲ̥ʲàtʰá 1.0 ɲ_B a_I tʰ_I a_E
+hĩˀtu 1.0 h_B ĩ_I t_I u_E
+hueˀpɨ̃ 1.0 h_B u_I eˀ_I p_I ɨ̃_E
+t͡ʃãˀsamɨ̃̀ 1.0 t͡ʃ_B ã_I s_I a_I m_I ɨ̃_E
+ápè-ɲʲú 1.0 a_B p_I e_I ɲ_I u_E
+à̰pémɨ̃̀ 1.0 a_B p_I e_I m_I ɨ̃_E
+t͡ʃoˀt͡ʃomɨ̃ 1.0 t͡ʃ_B oˀ_I t͡ʃ_I o_I m_I ɨ̃_E
+siˀsi*a 1.0 s_B iˀ_I s_I i_I *_I a_E
+ápè-ɨ̀á-mà̰-mɨ̀ 1.0 a_B p_I e_I ɨ_I a_I m_I a_I m_I ɨ_E
+βèˀβɨ́ 1.0 β_B eˀ_I β_I ɨ_E
+nɨ̃ˀkemɨ̃ 1.0 n_B ɨ̃_I k_I e_I m_I ɨ̃_E
+t͡ʃi*ime 1.0 t͡ʃ_B i_I *_I i_I m_I e_E
+ápè-máˀ-m 1.0 a_B p_I e_I m_I aˀ_I m_E
+pà*í-mɨ̀ 1.0 p_B a_I *_I i_I m_I ɨ_E
+ũkupiramɨ̃ 1.0 ũ_B k_I u_I p_I i_I r_I a_I m_I ɨ̃_E
+kʰôː-wɨ́ 1.0 kʰ_B o_I w_I ɨ_E
+ɸèémɨ̃̀ 1.0 ɸ_B e_I e_I m_I ɨ̃_E
+hà*ɨ́ 1.0 h_B a_I *_I ɨ_E
+ɨ*ɨmɨ̃ 1.0 ɨ_B *_I ɨ_I m_I ɨ̃_E
+tʰoʔoro*o 1.0 tʰ_B o_I ʔ_I o_I r_I o_I *_I o_E
+cɨ́ɨɨ̀mà̰mɨ̃̀ 1.0 c_B ɨ_I ɨ_I ɨ_I m_I a_I m_I ɨ̃_E
+t͡ʃã*umɨ 1.0 t͡ʃ_B ã_I *_I u_I m_I ɨ_E
+ɾàɲʲá-péò-mɨ̀ 1.0 ɾ_B a_I ɲ_I a_I p_I e_I o_I m_I ɨ_E
+mǎː-kâː 1.0 m_B a_I k_I a_E
+t͡ʃot͡ʃo 1.0 t͡ʃ_B o_I t͡ʃ_I o_E
+rèʔómɨ̃̀ 1.0 r_B e_I ʔ_I o_I m_I ɨ̃_E
+pi*a 1.0 p_B i_I *_I a_E
+ko*ɨmɨ̃ 1.0 k_B o_I *_I ɨ_I m_I ɨ̃_E
+muˀkamɨ̃ 1.0 m_B uˀ_I k_I a_I m_I ɨ̃_E
+sìɦó-pɨ̀ 1.0 s_B i_I ɦ_I o_I p_I ɨ_E
+wíˀtʰò-kʰá 1.0 w_B iˀ_I tʰ_I o_I kʰ_I a_E
+cʲô-ɦɨ́*ɨ̀ 1.0 c_B o_I ɦ_I ɨ_I *_I ɨ_E
+kʰùkʰú-mɨ̀ 1.0 kʰ_B u_I kʰ_I u_I m_I ɨ_E
+ɨ́ɦà-wɨ́ 1.0 ɨ_B ɦ_I a_I w_I ɨ_E
+u*utĩˀkirɨ 1.0 u_B *_I u_I t_I ĩ_I k_I i_I r_I ɨ_E
+hêʔhemɨ̃̀ 1.0 h_B e_I ʔ_I h_I e_I m_I ɨ̃_E
+ɲase 1.0 ɲ_B a_I s_I e_E
+ĩ*i 1.0 ĩ_B *_I i_E
+há*à-kʰôː-wɨ́ 1.0 h_B a_I *_I a_I kʰ_I o_I w_I ɨ_E
+kunareaβa 1.0 k_B u_I n_I a_I r_I e_I a_I β_I a_E
+maˀɲa 1.0 m_B aˀ_I ɲ_I a_E
+at͡ʃo 1.0 a_B t͡ʃ_I o_E
+ɲʲáː-kʰɨ̀ 1.0 ɲ_B a_I kʰ_I ɨ_E
+sèsé 1.0 s_B e_I s_I e_E
+wèkʰɨ́ 1.0 w_B e_I kʰ_I ɨ_E
+<UNK> 1.0 spn_S
+suĩˀsuemɨ̃ 1.0 s_B u_I ĩ_I s_I u_I e_I m_I ɨ̃_E
+kaimɨ̃̀ 1.0 k_B a_I i_I m_I ɨ̃_E
+kʰàt́a 1.0 kʰ_B a_I t_I a_E
+hà*áɲɨ́ 1.0 h_B a_I *_I a_I ɲ_I ɨ_E
+t͡ʃãumɨ̃̀ 1.0 t͡ʃ_B ã_I u_I m_I ɨ̃_E
+korɨmɨ 1.0 k_B o_I r_I ɨ_I m_I ɨ_E
+hàʔó 1.0 h_B a_I ʔ_I o_E
+ɲʲáː-ɦɨ̀ʔɨ́ 1.0 ɲ_B a_I ɦ_I ɨ_I ʔ_I ɨ_E
+tʰõʔkamɨ 1.0 tʰ_B õ_I ʔ_I k_I a_I m_I ɨ_E
+oˀromɨ̃ 1.0 oˀ_B r_I o_I m_I ɨ̃_E
+ɾàɲʲá 1.0 ɾ_B a_I ɲ_I a_E
+ìká-mɨ́ 1.0 i_B k_I a_I m_I ɨ_E
+kʰùtʰù-máˀ-mɨ̀ 1.0 kʰ_B u_I tʰ_I u_I m_I aˀ_I m_I ɨ_E
+míàɲʲé 1.0 m_B i_I a_I ɲ_I e_E
+siˀremo 1.0 s_B iˀ_I r_I e_I m_I o_E
+ìká-mè 1.0 i_B k_I a_I m_I e_E
+βãˀβamɨ̃̀ 1.0 β_B ã_I β_I a_I m_I ɨ̃_E
+t͡ʃɨ́òpí 1.0 t͡ʃ_B ɨ_I o_I p_I i_E
+cɨ̀kɨ́nà 1.0 c_B ɨ_I k_I ɨ_I n_I a_E
+piˀnimo 1.0 p_B iˀ_I n_I i_I m_I o_E
+t͡ʃiimo 1.0 t͡ʃ_B i_I i_I m_I o_E
+hu'epɨ̃ 1.0 h_B u_I e_I p_I ɨ̃_E
+kátà-pɨ́ 1.0 k_B a_I t_I a_I p_I ɨ_E
+têʔtʰerɨ 1.0 t_B e_I ʔ_I tʰ_I e_I r_I ɨ_E
+kã*amɨ̀ 1.0 k_B ã_I *_I a_I m_I ɨ_E
+à̀pè-má-mɨ̀ 1.0 a_B p_I e_I m_I a_I m_I ɨ_E
+ìká-mó 1.0 i_B k_I a_I m_I o_E
+βiˀto 1.0 β_B iˀ_I t_I o_E
+sìsó-mɨ̀ 1.0 s_B i_I s_I o_I m_I ɨ_E
+t͡ʃòkòˀʰɲà 1.0 t͡ʃ_B o_I k_I oˀ_I ɲ_I a_E
+ísḭ̀-pɨ́ 1.0 i_B s_I i_I p_I ɨ_E
+sàí-mɨ̀ 1.0 s_B a_I i_I m_I ɨ_E
+oˀnona 1.0 oˀ_B n_I o_I n_I a_E
+ɲʲâː-ŋʲé 1.0 ɲ_B a_I ŋ_I e_E
+àɨ́ 1.0 a_B ɨ_E
+kʰò̰mà̰néɦɨ̰́*ɨ̀ 1.0 kʰ_B o_I m_I a_I n_I e_I ɦ_I ɨ_I *_I ɨ_E
+àpè-cʲé 1.0 a_B p_I e_I c_I e_E
+wu*e 1.0 w_B u_I *_I e_E
+kɨ̀náβàɦɨ́ 1.0 k_B ɨ_I n_I a_I β_I a_I ɦ_I ɨ_E
+iʔse 1.0 i_B ʔ_I s_I e_E
+tʰòɲ̥ʲò-ɲʲé 1.0 tʰ_B o_I ɲ_I o_I ɲ_I e_E
+tʰóà-pɨ́ 1.0 tʰ_B o_I a_I p_I ɨ_E
+kõˀsa 1.0 k_B õ_I s_I a_E
+ʰɲáàɲhu*u 1.0 ɲ_B a_I a_I ɲ_I h_I u_I *_I u_E
+kʰáì-ɲʲé 1.0 kʰ_B a_I i_I ɲ_I e_E
+koɨo 1.0 k_B o_I ɨ_I o_E
+pia 1.0 p_B i_I a_E
+kǎːmàmó 1.0 k_B a_I m_I a_I m_I o_E
+àú-ɦɨ̀ʔɨ́ 1.0 a_B u_I ɦ_I ɨ_I ʔ_I ɨ_E
+pìtʰó 1.0 p_B i_I tʰ_I o_E
+peˀrumɨ̃̀ 1.0 p_B eˀ_I r_I u_I m_I ɨ̃_E
+tʰòtʰá-m 1.0 tʰ_B o_I tʰ_I a_I m_E

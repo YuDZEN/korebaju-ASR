@@ -9,6 +9,7 @@ import time
 start= time.time()
 # make two variables to store the input and output directories
 output_dir = "../../main/data/train"
+output_relative_dir = "../../main"
 input_dir = "../../data_source"
 os.makedirs(output_dir, exist_ok=True) # create the output directory if it does not exist
 
@@ -44,7 +45,7 @@ for root, dirs, files in os.walk(input_dir):
         print("speaker_id = " + speaker_id)
 
         if os.path.exists(textgrid_file):
-            relative_wav_file = os.path.relpath(wav_file, output_dir)
+            relative_wav_file = os.path.relpath(wav_file, output_relative_dir)
             relative_wav_file = relative_wav_file.replace('\\', '/')  # Replace backslashes with forward slashes
             # Initialize content strings
             wav_scp_content = f"{recording_id} {relative_wav_file}\n" # <recording-id> <extended-filename>
@@ -83,8 +84,8 @@ for root, dirs, files in os.walk(input_dir):
             with open(utt2spk_path, 'a', encoding='utf-8') as f:
                 f.write(utt2spk_content)
         else: print("no corresponding textgrid file found for " + base_name)
-# Generate spk2utt file
-utt2spk_to_spk2utt("../../main/data/train/utt2spk", "../../main/data/train/spk2utt")
+# # Generate spk2utt file
+# utt2spk_to_spk2utt("../../main/data/train/utt2spk", "../../main/data/train/spk2utt")
 print("Data preparation completed successfully!")
 
 # 脚本执行完毕的时间戳

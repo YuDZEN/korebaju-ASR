@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=./data/lang/phones/disambig.int ./exp/mono/tree ./exp/mono/0.mdl ./data/lang/L.fst "ark:sym2int.pl --map-oov 1 -f 2- ./data/lang/words.txt < ./data/train/split1/1/text|" "ark:|gzip -c >./exp/mono/fsts.1.gz" 
+# Started at Sun Jul 21 12:32:39 CEST 2024
+#
+compile-train-graphs --read-disambig-syms=./data/lang/phones/disambig.int ./exp/mono/tree ./exp/mono/0.mdl ./data/lang/L.fst 'ark:sym2int.pl --map-oov 1 -f 2- ./data/lang/words.txt < ./data/train/split1/1/text|' 'ark:|gzip -c >./exp/mono/fsts.1.gz' 
+sym2int.pl: replacing ɲàˀsé with 1
+sym2int.pl: replacing ɲàˀsé with 1
+sym2int.pl: replacing ɲàˀsé with 1
+sym2int.pl: replacing ò*á with 1
+sym2int.pl: replacing ò*á with 1
+sym2int.pl: replacing ò*á with 1
+sym2int.pl: replacing pìní-mé with 1
+sym2int.pl: replacing pìˀní-mé with 1
+sym2int.pl: replacing pìˀní-mé with 1
+sym2int.pl: replacing kʰòʔɨ́-mɨ̃̀ with 1
+sym2int.pl: replacing kʰò*ɨ́-mè with 1
+sym2int.pl: replacing kʰò*ɨ́-mè with 1
+sym2int.pl: replacing βèˀsé with 1
+sym2int.pl: replacing βèˀsé with 1
+sym2int.pl: replacing kàí-mõ̀ with 1
+sym2int.pl: replacing kàí-mɨ̃́ with 1
+sym2int.pl: replacing kàí-mɨ̃́ with 1
+sym2int.pl: replacing cǐ-mṍ with 1
+sym2int.pl: replacing cǐː-mṍ with 1
+sym2int.pl: replacing má*àkàɹɨ́ with 1
+sym2int.pl: not warning for OOVs any more times
+** Replaced 307 instances of OOVs with 1
+LOG (compile-train-graphs[5.5.1139~1-67548]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 306 graphs, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Jul 21 12:32:39 CEST 2024, elapsed time 0 seconds
