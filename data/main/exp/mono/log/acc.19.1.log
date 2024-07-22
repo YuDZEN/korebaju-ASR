@@ -1,9 +1,9 @@
 # gmm-acc-stats-ali ./exp/mono/19.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:./data/train/split1/1/utt2spk scp:./data/train/split1/1/cmvn.scp scp:./data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:gunzip -c ./exp/mono/ali.1.gz|" ./exp/mono/19.1.acc 
-# Started at Mon Jul 22 00:42:48 CEST 2024
+# Started at Mon Jul 22 15:51:56 CEST 2024
 #
 gmm-acc-stats-ali ./exp/mono/19.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:./data/train/split1/1/utt2spk scp:./data/train/split1/1/cmvn.scp scp:./data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:gunzip -c ./exp/mono/ali.1.gz|' ./exp/mono/19.1.acc 
-add-deltas ark:- ark:- 
 apply-cmvn --utt2spk=ark:./data/train/split1/1/utt2spk scp:./data/train/split1/1/cmvn.scp scp:./data/train/split1/1/feats.scp ark:- 
+add-deltas ark:- ark:- 
 LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance 2022_COE_F_G1_14_C002 avg. like is -96.6253 over 84 frames.
 LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance 2022_COE_F_G1_14_D012 avg. like is -78.0756 over 82 frames.
 LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance 2022_COE_F_G1_14_E024 avg. like is -86.2798 over 77 frames.
@@ -15,4 +15,4 @@ LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:112) Done 3
 LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -85.938 over 26605 frames.
 LOG (gmm-acc-stats-ali[5.5.1139~1-67548]:main():gmm-acc-stats-ali.cc:123) Written accs.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Mon Jul 22 00:42:48 CEST 2024, elapsed time 0 seconds
+# Ended (code 0) at Mon Jul 22 15:51:56 CEST 2024, elapsed time 0 seconds

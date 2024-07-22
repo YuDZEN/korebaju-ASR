@@ -1,5 +1,5 @@
 # gmm-init-model --write-occs=./exp/tri1/1.occs ./exp/tri1/tree ./exp/tri1/treeacc ./data/lang/topo ./exp/tri1/1.mdl 
-# Started at Mon Jul 22 00:43:11 CEST 2024
+# Started at Mon Jul 22 15:52:34 CEST 2024
 #
 gmm-init-model --write-occs=./exp/tri1/1.occs ./exp/tri1/tree ./exp/tri1/treeacc ./data/lang/topo ./exp/tri1/1.mdl 
 LOG (gmm-init-model[5.5.1139~1-67548]:main():gmm-init-model.cc:271) Number of separate statistics is 104
@@ -57,4 +57,4 @@ WARNING (gmm-init-model[5.5.1139~1-67548]:InitAmGmm():gmm-init-model.cc:83) Very
 WARNING (gmm-init-model[5.5.1139~1-67548]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 63: 51; corresponding phone list: 86 87 88 89 
 LOG (gmm-init-model[5.5.1139~1-67548]:main():gmm-init-model.cc:306) Wrote model.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Mon Jul 22 00:43:11 CEST 2024, elapsed time 0 seconds
+# Ended (code 0) at Mon Jul 22 15:52:34 CEST 2024, elapsed time 0 seconds

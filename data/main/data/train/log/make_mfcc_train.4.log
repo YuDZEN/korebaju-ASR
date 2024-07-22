@@ -1,5 +1,5 @@
 # extract-segments scp,p:./data/train/wav.scp ./data/train/log/segments.4 ark:- | compute-mfcc-feats --write-utt2dur=ark,t:./data/train/log/utt2dur.4 --verbose=2 --config=conf/mfcc.conf ark:- ark:- | copy-feats --compress=true --write-num-frames=ark,t:./data/train/log/utt2num_frames.4 ark:- ark,scp:/home/yu/main/./data/train/data/raw_mfcc_train.4.ark,/home/yu/main/./data/train/data/raw_mfcc_train.4.scp 
-# Started at Mon Jul 22 00:42:26 CEST 2024
+# Started at Mon Jul 22 15:51:21 CEST 2024
 #
 copy-feats --compress=true --write-num-frames=ark,t:./data/train/log/utt2num_frames.4 ark:- ark,scp:/home/yu/main/./data/train/data/raw_mfcc_train.4.ark,/home/yu/main/./data/train/data/raw_mfcc_train.4.scp 
 extract-segments scp,p:./data/train/wav.scp ./data/train/log/segments.4 ark:- 
@@ -94,4 +94,4 @@ VLOG[2] (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:182) 
 LOG (compute-mfcc-feats[5.5.1139~1-67548]:main():compute-mfcc-feats.cc:185)  Done 79 out of 79 utterances.
 LOG (copy-feats[5.5.1139~1-67548]:main():copy-feats.cc:143) Copied 79 feature matrices.
 # Accounting: time=1 threads=1
-# Ended (code 0) at Mon Jul 22 00:42:27 CEST 2024, elapsed time 1 seconds
+# Ended (code 0) at Mon Jul 22 15:51:22 CEST 2024, elapsed time 1 seconds

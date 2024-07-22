@@ -1,5 +1,5 @@
 # gmm-est --mix-up=5520 --power=0.25 --write-occs=./exp/tri1/13.occs ./exp/tri1/12.mdl "gmm-sum-accs - ./exp/tri1/12.*.acc |" ./exp/tri1/13.mdl 
-# Started at Mon Jul 22 00:43:23 CEST 2024
+# Started at Mon Jul 22 15:52:48 CEST 2024
 #
 gmm-est --mix-up=5520 --power=0.25 --write-occs=./exp/tri1/13.occs ./exp/tri1/12.mdl 'gmm-sum-accs - ./exp/tri1/12.*.acc |' ./exp/tri1/13.mdl 
 gmm-sum-accs - ./exp/tri1/12.1.acc 
@@ -52,5 +52,5 @@ WARNING (gmm-est[5.5.1139~1-67548]:GetSplitTargets():model-common.cc:134) Could 
 
 LOG (gmm-est[5.5.1139~1-67548]:SplitByCount():am-diag-gmm.cc:116) Split 64 states with target = 5520, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 1343 to 1348
 LOG (gmm-est[5.5.1139~1-67548]:main():gmm-est.cc:146) Written model to ./exp/tri1/13.mdl
-# Accounting: time=0 threads=1
-# Ended (code 0) at Mon Jul 22 00:43:23 CEST 2024, elapsed time 0 seconds
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Jul 22 15:52:49 CEST 2024, elapsed time 1 seconds

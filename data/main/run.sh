@@ -11,6 +11,7 @@ rm -f data/lang/dict/lexiconp.txt
 
 # 删除 data/lang/L.fst 文件
 rm -f data/lang/L.fst
+rm -f data/lang/G.fst
 rm -f data/lang/L_disambig.fst
 rm -f data/lang/oov.int
 rm -f data/lang/oov.txt
@@ -91,7 +92,9 @@ steps/train_deltas.sh --cmd "run.pl" 2000 10000 $train_dir $lang_dir $exp_dir/mo
 # Step 6: Align triphone model
 echo "Aligning triphone model..."
 steps/align_si.sh --nj 1 --cmd "run.pl" $train_dir $lang_dir $exp_dir/tri1 $exp_dir/tri1_ali || exit 1
-utils/mkgraph.sh $lang_dir $exp_dir/tri1 $exp_dir/tri1/graph || exit 1
+cp language_model/G.fst data/lang/G.fst
+
+utils/mkgraph.sh data/lang exp/tri1 exp/tri1/graph || exit 1
 
 # Step 7: Decode test data
 # echo "Decoding test data..."

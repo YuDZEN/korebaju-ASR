@@ -1,5 +1,5 @@
 # gmm-est --write-occs=./exp/mono/38.occs --mix-up=980 --power=0.25 ./exp/mono/37.mdl "gmm-sum-accs - ./exp/mono/37.*.acc|" ./exp/mono/38.mdl 
-# Started at Mon Jul 22 00:43:05 CEST 2024
+# Started at Mon Jul 22 15:52:21 CEST 2024
 #
 gmm-est --write-occs=./exp/mono/38.occs --mix-up=980 --power=0.25 ./exp/mono/37.mdl 'gmm-sum-accs - ./exp/mono/37.*.acc|' ./exp/mono/38.mdl 
 gmm-sum-accs - ./exp/mono/37.1.acc 
@@ -122,5 +122,5 @@ LOG (gmm-est[5.5.1139~1-67548]:main():gmm-est.cc:113) GMM update: Overall 0.0220
 LOG (gmm-est[5.5.1139~1-67548]:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -81.7536 over 26605 frames.
 LOG (gmm-est[5.5.1139~1-67548]:SplitByCount():am-diag-gmm.cc:116) Split 140 states with target = 980, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 983 to 983
 LOG (gmm-est[5.5.1139~1-67548]:main():gmm-est.cc:146) Written model to ./exp/mono/38.mdl
-# Accounting: time=0 threads=1
-# Ended (code 0) at Mon Jul 22 00:43:05 CEST 2024, elapsed time 0 seconds
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Jul 22 15:52:22 CEST 2024, elapsed time 1 seconds
