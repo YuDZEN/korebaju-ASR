@@ -1,15 +1,10 @@
 # Korebaju ASR Project
-
 ## Project Overview
-
-Our main objective (for the moment) is to create an automatic transcription tool for the Korebaju language to make its transcription easier.
-
-Currently, the tool is still under development, and further functions and information will be added later. The recent task is to design a dataset for our project.
+Our main objective (for the moment) is to create an automatic transcription tool for the Korebaju language to make its transcription easier. Currently, the tool is still under development, and further functions and information will be added later. The recent task is to design a dataset for our project.
 
 ## Dataset Structure
 ### Data ressources: 
 all the data come from a corpus of 6 hours of audio recordings of Korebaju language. the data was recorded with a carrier sentence and a list of words (250 words). The carrier sentence was :
-
 #### a : female speaker
 /ìkámó t͡ʃɨ̀í ____ kòrèbàhɨ́ t͡ʃɨ́òpí/
 
@@ -31,3 +26,33 @@ say-3sg.masc I korebaju language
 For the transcriptiojn of the corpus, only the part of the target word was annotated. A target word can start from only one single syllable upto 7 syllables.
 The corpus regrouped recordings of 36 speakers and every target word was repeated 3 times by each speaker.
 The annotation was done on phoneme level and each phoneme is represented by one or more International Phonetic Alphabet (IPA) symbols.
+
+```
+PS
+In the word list we added some words from the carrier phrase:
+
+kòrèbàhɨ́ 
+<korebaju>
+
+t͡ʃɨ́òpí 
+<language>
+
+ìká-mɨ́ 
+<say sing. masc.>
+
+ìká-mó 
+<say sing. femi.>
+
+ìká-mè 
+<say pl.>
+
+t͡ʃɨ̀í 
+<i first person. sing.>
+
+cɨ̀kɨ́nà 
+<we first person. pl.>
+
+We added an "-" in the word because a space is not allowed in a word:
+
+ot͡ʃo siˀβi ----> ot͡ʃo-siˀβi
+```
