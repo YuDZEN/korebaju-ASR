@@ -3,7 +3,7 @@
 set -e
 
 # define directories
-data_dir="decode"
+data_dir="decode/data"
 output_dir="decode/tmp"
 ali_output_dir="decode/ali"
 textgrid_output_dir="decode/textgrid"
